@@ -63,7 +63,8 @@ const FAQ = () => {
     },
   ];
   return (
-    <div className="container">
+    <div className="container py-16">
+      <h1 className="font-bold text-2xl mb-10">Các câu hỏi thường gặp</h1>
       <Collapse
         defaultActiveKey={["1"]}
         onChange={onChange}

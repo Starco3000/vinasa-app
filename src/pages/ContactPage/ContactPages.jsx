@@ -8,11 +8,9 @@ import FAQ from "./FAQ/FAQ";
 export default function ContactPages() {
   return (
     <div>
-      <Header />
       <Contact />
       <Address />
       <Map />
-      {/* <Footer /> */}
     </div>
   );
 }
