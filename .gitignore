@@ -12,7 +12,7 @@
 /build
 /.vscode
 .prettierrc
-/pages
+
 
 # misc
 .DS_Store
