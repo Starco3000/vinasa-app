@@ -10,46 +10,46 @@ const Nav = () => {
   };
   return (
     <>
-      <nav className="w-1/2 flex justify-end">
-        <div className="hidden w-full justify-between mr-[34px] md:flex">
+      <nav className="w-3/5 flex justify-end">
+        <div className="hidden w-full justify-between mr-[34px] md:flex pr-10">
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to=""
           >
             Giới thiệu
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to=""
           >
             Quyền lợi
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to=""
           >
             Danh sách đề cử 2023
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to=""
           >
             Tin tức
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-            to=""
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            to="/faq"
           >
             FAQs
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-            to=""
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            to="/contact"
           >
             Liên hệ
           </NavLink>
           <NavLink
-            className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+            className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to=""
           >
             Lang

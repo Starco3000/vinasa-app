@@ -26,7 +26,7 @@ const Logo = () => {
     };
   }, []);
   return (
-    <div className="md:w-[200px] h-[70px] w-[130px] object-fill md:h-[100px] py-5 md:py-3 md:ml-15 flex items-center">
+    <div className="md:w-1/5 h-[70px] w-[130px] object-cover md:h-[100px] py-5 md:py-3 md:ml-15 flex items-center">
       <NavLink to="">
         <img src={logoImage} alt="Logo" />
       </NavLink>

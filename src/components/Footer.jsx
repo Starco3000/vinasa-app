@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="w-full h-full  bg-gradient-to-b from-turquoise to-baby-blue">
+    <footer className="w-full h-full bg-gradient-to-b from-turquoise to-baby-blue">
       <div className="flex flex-col md:flex-row pt-[60px] pb-[40px] md:pb-[80px] md:mx-[133px] mx-[40px]">
         {/* LEFT SIDE */}
         <div className="md:w-[490px] md:mr-[180px]">

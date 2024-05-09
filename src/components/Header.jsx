@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <header
-      className="sticky top-0 z-50 mx-auto w-full h-[70px] flex flex-wrap items-center justify-between shadow-sm md:flex-nowrap md:justify-between md:p-8 md:h-[100px]"
+      className="sticky top-0 z-50 mx-auto w-full h-[70px] flex flex-wrap items-center justify-between md:flex-nowrap md:justify-between  md:h-[100px]"
       style={{
         backgroundColor: `rgba(255, 255, 255, ${opacity})`,
         color: textColor,
