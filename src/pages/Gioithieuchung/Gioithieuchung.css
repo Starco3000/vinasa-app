@@ -1,0 +1,21 @@
+.awards-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.awards-container h1 {
+  color: #333;
+}
+
+.awards-container p {
+  color: #666;
+}
+
+.awards-container ul {
+  list-style-type: none;
+}
+
+.awards-container ul li {
+  margin-bottom: 10px;
+}

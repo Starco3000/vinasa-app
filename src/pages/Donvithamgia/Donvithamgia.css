@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Background màu trắng cho phần nội dung */
+.content {
+  background-color: #ffffff;
+}
+
+.Donvithamgia {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  font-weight: 600; /* Font weight: semi-bold */
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-weight: 600; /* Font weight: semi-bold */
+}
+
+h1.blue:not(.h2):not(.h3) {
+  color: rgb(1, 1, 170);
+  padding: 40px;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 133px;
+  padding-right: 133px;
+}
+.logos img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.participating-units .logos {
+  grid-template-columns: repeat(6, 1fr);
+}
