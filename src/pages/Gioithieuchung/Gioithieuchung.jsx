@@ -1,15 +1,19 @@
-import React from "react";
-import "../Gioithieuchung/Gioithieuchung.css";
-import image from "../../assets/imgs/None.png";
-import image2 from "../../assets/imgs/Untitled.png";
+import React from 'react';
+import '../Gioithieuchung/Gioithieuchung.css';
+import image from '../../assets/imgs/None.png';
+import image2 from '../../assets/imgs/Untitled.png';
+import SubBanner from './../../components/SubBanner';
 
 const Gioithieuchung = () => {
   return (
     <div className="bg-white">
+      <SubBanner title="Giới thiệu chung" />
       <div className="flex justify-around mx-10 my-10">
         <div className="w-[660px]">
-          <h1 className="font-bold py-10 ">Lần thứ hai tổ chức tại Việt Nam</h1>
-          <p className="tracking-[0.26px] text-justify leading-[25.6px] text-[20px]">
+          <h1 className="font-open-sans font-bold text-4xl py-10 ">
+            Lần thứ hai tổ chức tại Việt Nam
+          </h1>
+          <p className="font-open-sans tracking-[0.26px] text-justify leading-[25.6px] text-[20px]">
             <b>Giải thưởng Sáng tạo tương lai - VietFuture</b> là Giải thưởng
             dành cho các dự án khởi nghiệp Đổi mới sáng tạo của sinh viên các
             trường Đại học, Cao đẳng trên cả nước và các dự án theo đặt hàng từ
@@ -40,8 +44,8 @@ const Gioithieuchung = () => {
           />
         </div>
         <div className="w-[660px] py-10">
-          <h2 className="font-bold ml-[50%] w-[394px] h-[43px]">
-            Danh sách các giải thưởng
+          <h2 className="font-open-sans font-bold text-4xl text-right">
+            VietFuture Awards 2024
           </h2>
           <p className="tracking-[0.26px] text-justify leading-[25.6px] text-[20px]">
             <b>Giải thưởng Sáng tạo tương lai - VietFuture 2024</b> kỳ vọng sẽ

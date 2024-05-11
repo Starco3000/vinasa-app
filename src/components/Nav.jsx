@@ -14,7 +14,7 @@ const Nav = () => {
         <div className="hidden w-full justify-between mr-[34px] md:flex">
           <NavLink
             className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-            to=""
+            to="/gioithieuchung"
           >
             Giới thiệu
           </NavLink>
