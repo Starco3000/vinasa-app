@@ -13,8 +13,10 @@ const Nav = () => {
       <nav className="w-3/5 flex justify-end">
         <div className="hidden w-full justify-between mr-[34px] md:flex pr-10">
           <NavLink
+
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-            to=""
+            to="/gioithieuchung"
+huan
           >
             Giới thiệu
           </NavLink>
