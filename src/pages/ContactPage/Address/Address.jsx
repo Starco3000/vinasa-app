@@ -4,7 +4,7 @@ import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 export default function Address() {
   return (
-    <div className="container pb-16">
+    <div className="w pb-16">
       <p className="text-3xl font-bold mb-10">Địa chỉ văn phòng</p>
       <div className="flex items-center space-x-10 ">
         <div className="content-center bg-yellow-300 h-[300px] w-1/4 p-4   ">
