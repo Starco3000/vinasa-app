@@ -3,7 +3,8 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import ContactPages from "./pages/ContactPage/ContactPages";
-import FAQ from "./pages/ContactPage/FAQ/FAQ";
+import FAQ from "./pages/FAQPages/FAQPages";
+import News from "./pages/News/News";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<ContactPages />} />
-        <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/faq" element={<FAQ />} />
+        <Route path="/new" element={<News />} />
       </Routes>
       <Footer />
     </div>
