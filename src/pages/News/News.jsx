@@ -1,6 +1,5 @@
 import React from "react";
-
-export default function News() {
+function News() {
   return (
     <div className="container">
       <div>
@@ -67,3 +66,5 @@ export default function News() {
     </div>
   );
 }
+
+export default News;
