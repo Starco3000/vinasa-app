@@ -13,6 +13,17 @@ code {
     monospace;
 }
 
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ant-select-show-arrow,
+.ant-collapse-extra{
+  display: none !important ;
+}
+

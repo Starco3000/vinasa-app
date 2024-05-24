@@ -1,7 +1,6 @@
 import React from 'react';
 import Subbanner from '../assets/imgs/sub-banner.png';
 
-
 const SubBanner = ({ title }) => {
   return (
     <div className="relative">

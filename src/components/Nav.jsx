@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 
+
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
@@ -16,24 +17,27 @@ const Nav = () => {
 
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/gioithieuchung"
-huan
+
           >
             Giới thiệu
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+
             to=""
           >
             Quyền lợi
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+
             to=""
           >
             Danh sách đề cử 2023
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+
             to=""
           >
             Tin tức
@@ -41,17 +45,20 @@ huan
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/faq"
+
           >
             FAQs
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/contact"
+
           >
             Liên hệ
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
+
             to=""
           >
             Lang
@@ -107,6 +114,7 @@ huan
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate-200 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
             to=""
+
           >
             FAQs
           </NavLink>

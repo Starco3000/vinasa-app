@@ -8,6 +8,7 @@ import ContactPages from './pages/ContactPage/ContactPages';
 import FAQPages from './pages/FAQPages/FAQPages';
 import Participating from './pages/Donvithamgia/Donvithamgia';
 import Gioithieuchung from './pages/Gioithieuchung/Gioithieuchung';
+import News from "./pages/News/News";
 
 function App() {
   return (
@@ -21,10 +22,12 @@ function App() {
           <Route path="/faq" element={<FAQPages />} />
           <Route path="/contact" element={<ContactPages />} />
           <Route path="/projectorder" element={<ProjectOrder />} />
+          <Route path="/new" element={<News />} />
         </Routes>
       </div>
       <Footer />
     </div>
   );
 }
+
 export default App;
