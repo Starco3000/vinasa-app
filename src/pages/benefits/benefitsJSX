@@ -1,0 +1,65 @@
+import React from 'react';
+import './Benefits.css';
+
+function Benefits() {
+    return (
+        <div>
+            <h1 className="benefits-title">QUYỀN LỢI THAM GIA</h1>
+
+            <img src="/images/bgquyenloi.png" alt="" className="center-background" />
+
+            <div className="benefits-content">
+                <div className="benefit-item">
+                    <div className="benefit-circle">01</div>
+                    <div className="benefit-text">Được trao Giấy chứng nhận tham gia Giải thưởng trong buổi Lễ chung kết và trao Giải thưởng Sáng tạo tương lai 2024 tại tỉnh Thừa Thiên Huế</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">02</div>
+                    <div className="benefit-text">Được nhận hiện kim, hiện vật từ Nhà tài trợ và Doanh nghiệp dành cho nhóm dự án đạt giải</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">03</div>
+                    <div className="benefit-text">Được tham gia triển lãm và giới thiệu thiệu sản phẩm miễn phí tại Chung kết cuộc thi</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">04</div>
+                    <div className="benefit-text">Được công bố sản phẩm/giải pháp đạt giải tại website của cuộc thi: www.innoconnect.vn </div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">05</div>
+                    <div className="benefit-text">Được hỗ trợ kết nối giới thiệu sản phẩm/giải pháp tới các doanh nghiệp quân tâm, đầu tư</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">06</div>
+                    <div className="benefit-text">Có cơ hội được đầu tư dự án hoặc cơ hội việc làm tại các doanh nghiệp </div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">07</div>
+                    <div className="benefit-text">Được giới thiệu với các chuyên gia, quỹ đầu tư, nhà đầu tư để tiếp tục hoàn thiện dự án triển khai thực tế</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">08</div>
+                    <div className="benefit-text">Được kết nối với Doanh nghiệp, tư vấn tuyển dụng, tư vấn đào tạo tại chuỗi Hội thảo: "Chat với CEO" tại các Trường Đại học, Cao đẳng</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">09</div>
+                    <div className="benefit-text">Được đề cử tham gia Giải thưởng APICTA tổ chức tại Brunei - được coi là Giải Oscar của ngành Công nghệ thông tin</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">10</div>
+                    <div className="benefit-text">Được tài trợ toàn bộ phần hạ tầng Cloud cho các nhóm tham gia bởi Alibaba Cloud</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">11</div>
+                    <div className="benefit-text">Đội vô địch (1 đội duy nhất - tối đa 4 thành viên bao gồm mentor) - sẽ được mời tham gia Hội nghị công nghệ thường niên toàn cầu Apsara Conference của Alibaba Cloud tại Hàng Châu - Trung Quốc</div>
+                </div>
+                <div className="benefit-item">
+                    <div className="benefit-circle">12</div>
+                    <div className="benefit-text">Có cơ hội nhận được tài trợ tham gia tập huấn, phát triển và hoàn thiện các ý tưởng, giải pháp đổi mới sáng tạo của mình tại Đức lên tới 30,000 EURO (theo chương trình tài trợ của Đại học Leipzig)</div>
+                </div>
+            </div>
+        </div>
+    );
+}
+
+export default Benefits;

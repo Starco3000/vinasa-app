@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+/* Home1 */
+
+
+.brand-img{
+    margin-top: 50px;
+    border-radius: 30px;
+}
+/* Home 2  */
+
+
+/* Home 4 */
+.Home4 .timer{
+    backdrop-filter: blur(0.125rem);
+    background: linear-gradient(90deg, #F9CB38 0%, #D3F4AC 50.5%, #74D5FF 100%);    
+
+}
+.timer-cap::after {
+    content: "\00a0\00a0\00a0";
+}
+/* Home5 */

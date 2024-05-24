@@ -1,0 +1,46 @@
+.title {
+    font-family: 'Exo 2', sans-serif; /* Sử dụng font Exo 2 */
+    font-size: 2.25rem; /* Set kích thước font là 36px */
+    font-weight: 700;
+    text-align: center; /* Căn giữa tiêu đề */
+    margin-bottom: 3.125rem;
+
+}
+.content-table{
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+}
+
+thead{
+    font-weight: 500;
+}
+.content-table table, th, td{
+    border: 1px solid #ccc;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.content-table table{
+    border-collapse:collapse;
+}
+.content-table td:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+
+.content-table table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    line-height: 2.5;
+}
+
+/* Đặt độ rộng cho từng cột */
+.content-table th:nth-child(1), .content-table td:nth-child(1) { width: 10%; }
+.content-table th:nth-child(2), .content-table td:nth-child(2) { width: 25%; }
+.content-table th:nth-child(3), .content-table td:nth-child(3) { width: 10%; }
+.content-table th:nth-child(4), .content-table td:nth-child(4) { width: 10%; }
+.content-table th:nth-child(5), .content-table td:nth-child(5) { width: 25%; }
+
+.content-table th:nth-child(6), .content-table td:nth-child(1) { width: 10%; }
+.content-table th:nth-child(7), .content-table td:nth-child(2) { width: 10%; }
