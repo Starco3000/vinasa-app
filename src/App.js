@@ -8,7 +8,8 @@ import ContactPages from './pages/ContactPage/ContactPages';
 import FAQPages from './pages/FAQPages/FAQPages';
 import Participating from './pages/Donvithamgia/Donvithamgia';
 import Gioithieuchung from './pages/Gioithieuchung/Gioithieuchung';
-import News from "./pages/News/News";
+import News from './pages/News/News';
+import Hoatdong from './pages/Hoatdong/Hoatdong';
 
 function App() {
   return (
@@ -23,8 +24,10 @@ function App() {
           <Route path="/contact" element={<ContactPages />} />
           <Route path="/projectorder" element={<ProjectOrder />} />
           <Route path="/new" element={<News />} />
+          <Route path="/Hoatdong" element={<Hoatdong />} />
         </Routes>
       </div>
+
       <Footer />
     </div>
   );

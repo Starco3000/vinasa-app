@@ -1,8 +1,8 @@
-import React from 'react';
-import '../Gioithieuchung/Gioithieuchung.css';
-import image from '../../assets/imgs/None.png';
-import image2 from '../../assets/imgs/Untitled.png';
-import SubBanner from './../../components/SubBanner';
+import React from "react";
+import "../Gioithieuchung/Gioithieuchung.css";
+import image from "../../assets/imgs/None.png";
+import image2 from "../../assets/imgs/Untitled.png";
+import SubBanner from "./../../components/SubBanner";
 
 const Gioithieuchung = () => {
   return (
