@@ -1,12 +1,12 @@
 .prize {
-    width: 80%; /* Độ rộng bằng 80% của phần tử chứa */
-    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của phần tử chứa */
-    height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
-    display: block; /* Đảm bảo hình ảnh không có khoảng trắng dưới cùng */
-    margin: 0 auto; /* Căn giữa hình ảnh */
+  width: 80%; /* Độ rộng bằng 80% của phần tử chứa */
+  max-width: 100%; /* Đảm bảo hình ảnh không vượt quá kích thước của phần tử chứa */
+  height: auto; /* Chiều cao tự động điều chỉnh theo tỷ lệ */
+  display: block; /* Đảm bảo hình ảnh không có khoảng trắng dưới cùng */
+  margin: 20px auto; /* Căn giữa hình ảnh */
 }
 
 .center-image {
-    max-width: 100%; 
-    height: auto; 
+  max-width: 100%;
+  height: auto;
 }

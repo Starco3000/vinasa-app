@@ -1,0 +1,33 @@
+.image-row,
+.image-row1,
+.image-row2 {
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.313rem;
+}
+
+.image-bolder {
+  border-radius: 0.313rem 0.313rem 3.125rem;
+}
+.image img {
+  border-radius: 0.313rem;
+  border: 1px solid #d9d9d9;
+  background: rgba(255, 255, 255, 0.95);
+  height: 14.208rem; /* 227px */
+  width: 13.75rem; /* 220px */
+  object-fit: cover;
+}
+.image-caption {
+  text-align: left;
+}
+.bold {
+  font-weight: bold;
+  line-height: 0.063rem;
+}
+.light {
+  margin-top: 0.8rem;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
