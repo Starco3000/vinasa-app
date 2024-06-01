@@ -1,0 +1,59 @@
+.branch-title {
+  font-family: 'Open Sans', sans-serif; /* Sử dụng font Open Sans */
+  font-size: 1.5rem; /* Set kích thước font là 36px */
+  text-align: center; /* Căn giữa tiêu đề */
+}
+
+.branch-table {
+  width: 80%;
+  margin: 1.25rem auto 2.5rem auto;
+  font-family: 'Open Sans', sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 3.125rem;
+  overflow-x: auto;
+}
+
+.branch-table td,
+.branch-table th {
+  border: 0.063rem solid Gold;
+  padding: 1rem;
+}
+
+.branch-table th {
+  background-color: Gold;
+  font-size: 1.125rem;
+  padding: 1.125rem 0.5rem;
+  color: white;
+}
+
+/* Đặt độ rộng cho từng cột */
+.branch-table th:nth-child(1),
+.branch-table td:nth-child(1) {
+  width: 10%;
+}
+.branch-table th:nth-child(2),
+.branch-table td:nth-child(2) {
+  width: 45%;
+}
+.branch-table th:nth-child(3),
+.branch-table td:nth-child(3) {
+  width: 45%;
+}
+
+/* Set border radius for table corners */
+.branch-table tr:first-child th:first-child {
+  border-top-left-radius: 3.125rem;
+}
+
+.branch-table tr:first-child th:last-child {
+  border-top-right-radius: 3.125rem;
+}
+
+.branch-table tr:last-child td:first-child {
+  border-bottom-left-radius: 3.125rem;
+}
+
+.branch-table tr:last-child td:last-child {
+  border-bottom-right-radius: 3.125rem;
+}

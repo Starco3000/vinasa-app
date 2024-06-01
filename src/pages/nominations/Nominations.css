@@ -1,0 +1,70 @@
+.nominations-title {
+  font-size: 2.25rem; /* Set kích thước font là 36px */
+  font-weight: 600;
+  text-align: center; /* Căn giữa tiêu đề */
+  margin-block: 3.125rem;
+  margin-inline: 1rem;
+}
+
+.awards-table {
+  width: 80%;
+  margin: 1.25rem auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 3.125rem;
+  border-radius: 1.563rem;
+  overflow-x: auto;
+}
+.awards-table th,
+.awards-table td {
+  border: 0.063rem solid #c09610;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.awards-table th {
+  background-color: #fecd31;
+  color: white;
+  font-size: 1.125rem;
+  padding: 1.125rem 0.5rem;
+  border: none;
+}
+
+/* Đặt độ rộng cho từng cột */
+.awards-table th:nth-child(1),
+.awards-table td:nth-child(1) {
+  width: 10%;
+}
+.awards-table th:nth-child(2),
+.awards-table td:nth-child(2) {
+  width: 10%;
+}
+.awards-table th:nth-child(3),
+.awards-table td:nth-child(3) {
+  width: 25%;
+}
+.awards-table th:nth-child(4),
+.awards-table td:nth-child(4) {
+  width: 35%;
+}
+.awards-table th:nth-child(5),
+.awards-table td:nth-child(5) {
+  width: 25%;
+}
+
+.awards-table tr:first-child th:first-child {
+  border-top-left-radius: 3.125rem;
+}
+
+.awards-table tr:first-child th:last-child {
+  border-top-right-radius: 3.125rem;
+}
+
+.awards-table tr:last-child td:first-child {
+  border-bottom-left-radius: 3.125rem;
+}
+
+.awards-table tr:last-child td:last-child {
+  border-bottom-right-radius: 3.125rem;
+}

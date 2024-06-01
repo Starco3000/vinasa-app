@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
 
-
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggleNavbar = () => {
@@ -14,30 +13,25 @@ const Nav = () => {
       <nav className="w-3/5 flex justify-end">
         <div className="hidden w-full justify-between mr-[34px] md:flex pr-10">
           <NavLink
-
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/gioithieuchung"
-
           >
             Giới thiệu
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-
-            to=""
+            to="/benefits"
           >
             Quyền lợi
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-
-            to=""
+            to="/nominations"
           >
             Danh sách đề cử 2023
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-
             to=""
           >
             Tin tức
@@ -45,20 +39,17 @@ const Nav = () => {
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/faq"
-
           >
             FAQs
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
             to="/contact"
-
           >
             Liên hệ
           </NavLink>
           <NavLink
             className="font-open-sans font-semibold text-sm uppercase hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-
             to=""
           >
             Lang
@@ -81,7 +72,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate-200 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
-            to=""
+            to="/gioithieuchung"
           >
             Giới thiệu
           </NavLink>
@@ -89,7 +80,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate-200 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
-            to=""
+            to="/benefits"
           >
             Quyền lợi
           </NavLink>
@@ -97,7 +88,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate2400 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
-            to=""
+            to="/nominations"
           >
             Danh sách đề cử 2023
           </NavLink>
@@ -113,8 +104,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate-200 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
-            to=""
-
+            to="/faq"
           >
             FAQs
           </NavLink>
@@ -122,7 +112,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
             className="p-4 w-[300px] font-open-sans font-medium text-center text-white text-base border-b border-slate-200 hover:bg-mint hover:rounded-lg transition duration-500 ease-in-out"
-            to=""
+            to="/contact"
           >
             Liên hệ
           </NavLink>
