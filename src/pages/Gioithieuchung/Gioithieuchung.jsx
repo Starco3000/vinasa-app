@@ -1,8 +1,9 @@
-import React from "react";
-import "../Gioithieuchung/Gioithieuchung.css";
-import image from "../../assets/imgs/None.png";
-import image2 from "../../assets/imgs/Untitled.png";
-import SubBanner from "./../../components/SubBanner";
+import React from 'react';
+import '../Gioithieuchung/Gioithieuchung.css';
+import image from '../../assets/imgs/anh1.jpg';
+import image2 from '../../assets/imgs/Untitled.png';
+import field from '../../assets/imgs/16-linh-vuc-du-thi.png';
+import SubBanner from './../../components/SubBanner';
 
 const Gioithieuchung = () => {
   return (
@@ -31,7 +32,7 @@ const Gioithieuchung = () => {
           <img
             src={image}
             alt="Hình ảnh 1"
-            className="w-[400px] h-[420px] py-9"
+            className="w-[400px] h-[420px] py-9 object-cover"
           />
         </div>
       </div>
@@ -40,7 +41,7 @@ const Gioithieuchung = () => {
           <img
             src={image}
             alt="Hình ảnh 2"
-            className="w-[400px] h-[420px] py-9"
+            className="w-[400px] h-[420px] py-9 object-cover"
           />
         </div>
         <div className="w-[660px] py-10">
@@ -66,7 +67,7 @@ const Gioithieuchung = () => {
         <img
           src={image2}
           alt="Hình ảnh 3"
-          className="w-[1260px] h-[770px] mx-auto py-10"
+          className="mx-auto py-10 object-contain"
         />
       </div>
       <div>
@@ -74,9 +75,9 @@ const Gioithieuchung = () => {
           Các lĩnh vực dự thi
         </p>
         <img
-          src={image2}
+          src={field}
           alt="Hình ảnh 4"
-          className="w-[1260px] h-[770px] mx-auto py-10"
+          className="mx-auto py-10 object-contain"
         />
       </div>
     </div>

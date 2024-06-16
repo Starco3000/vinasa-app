@@ -22,25 +22,24 @@ import RegistrationStep from './pages/RegistrationStep/RegistrationStep';
 function App() {
   return (
     <div className="App flex flex-col min-h-screen">
-      {/* <Navbar /> */}
       <Header />
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/participating" element={<Participating />} />
-          <Route path="/gioithieuchung" element={<Gioithieuchung />} />
+          <Route path="/introductionevent" element={<Gioithieuchung />} />
           <Route path="/faq" element={<FAQPages />} />
-          <Route path="/contact" element={<ContactPages />} />
+          <Route path="/contactus" element={<ContactPages />} />
           <Route path="/projectorder" element={<ProjectOrder />} />
-          <Route path="/new" element={<News />} />
+          <Route path="/news" element={<News />} />
           <Route path="/Hoatdong" element={<Hoatdong />} />
-          <Route path="/branch" element={<Branch />} />
+          <Route path="/fieldofcompetition" element={<Branch />} />
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/evaluationcriteria" element={<EvaluationCriteria />} />
           <Route path="/judges" element={<Judges />} />
-          <Route path="/nominations" element={<Nomination />} />
-          <Route path="/prize" element={<PrizePage />} />
-          <Route path="/registrationstep" element={<RegistrationStep />} />
+          <Route path="/nominationlist" element={<Nomination />} />
+          <Route path="/prizestructure" element={<PrizePage />} />
+          <Route path="/registrationprocess" element={<RegistrationStep />} />
         </Routes>
       </div>
 

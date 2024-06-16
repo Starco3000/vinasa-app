@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import logo1 from '../../assets/imgs/vietfuture-trang.png';
+import logo2 from '../../assets/imgs/vietfuture-den.png';
 import { NavLink } from 'react-router-dom';
-import logo1 from '../assets/imgs/vietfuture-trang.png';
-import logo2 from '../assets/imgs/vietfuture-den.png';
 
 const Logo = () => {
   const [logoImage, setLogoImage] = useState(logo1);
@@ -26,11 +26,9 @@ const Logo = () => {
     };
   }, []);
   return (
-    <div className="md:w-1/5 h-[70px] w-[130px] object-cover md:h-[100px] py-5 md:py-3 md:ml-15 flex items-center">
-      <NavLink to="/">
-        <img src={logoImage} alt="Logo" />
-      </NavLink>
-    </div>
+    <NavLink to="/">
+      <img className="w-auto h-11" src={logoImage} alt="logo vietfuture" />
+    </NavLink>
   );
 };
 

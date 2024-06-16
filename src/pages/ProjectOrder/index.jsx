@@ -3,13 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SubBanner from '../../components/SubBanner';
-import { projectData } from './ProjectData';
+import { projectData } from '../../data/mockProjectData';
 import ProjectCard from './ProjectCard';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {
-//   faChevronRight,
-//   faChevronLeft,
-// } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectOrder = () => {
   const [isMobile, setIsMobile] = useState(false);
