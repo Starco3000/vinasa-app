@@ -9,7 +9,6 @@ import FAQPages from './pages/FAQPages/FAQPages';
 function App() {
   return (
     <div className="App flex flex-col min-h-screen">
-      {/* <Navbar /> */}
       <Header />
       <div className="flex-grow">
         <Routes>

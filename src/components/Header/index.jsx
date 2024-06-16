@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from './Logo';
-// import Navbar from './Navbar';
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 const Header = () => {
   const [opacity, setOpacity] = useState(0); // Khởi tạo opacity là 0
@@ -11,13 +10,14 @@ const Header = () => {
     const scrollPosition = window.scrollY;
     const pointA = 0; // Điểm A
     const pointB = 300; // Điểm B
+    const pointC = 150; // Điểm C
 
     // Tính toán giá trị opacity dựa trên vị trí cuộn của trang
     const calculatedOpacity = (scrollPosition - pointA) / (pointB - pointA);
     setOpacity(calculatedOpacity);
 
     // Tính toán màu chữ dựa trên vị trí cuộn của trang
-    const calculatedTextColor = scrollPosition > pointB ? 'black' : 'white';
+    const calculatedTextColor = scrollPosition > pointC ? 'black' : 'white';
     setTextColor(calculatedTextColor);
   };
 
@@ -28,18 +28,19 @@ const Header = () => {
       window.removeEventListener('scroll', checkScroll);
     };
   }, []);
-
   return (
-    <header
-      className="sticky top-0 z-50 mx-auto w-full h-[70px] flex flex-wrap items-center justify-between md:flex-nowrap md:justify-between  md:h-[100px]"
+    <div
+      className="sticky top-0 left-0 right-0 py-3 font-open-sans md:py-5 md:px-[5%] flex flex-wrap justify-between items-center z-[10000]"
       style={{
         backgroundColor: `rgba(255, 255, 255, ${opacity})`,
         color: textColor,
       }}
     >
-      <Logo />
-      <Nav />
-    </header>
+      <div className="relative w-full">
+        <Logo />
+        <Navbar />
+      </div>
+    </div>
   );
 };
 
