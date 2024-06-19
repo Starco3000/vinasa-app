@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import ContactPages from "./pages/ContactPage/ContactPages";
 import FAQ from "./pages/FAQPages/FAQPages";
 import News from "./pages/News/News";
+import Detail from "./pages/News/Detail";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<ContactPages />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/new" element={<News />} />
+        <Route path="/new/:slug" element={<Detail />} />
       </Routes>
       <Footer />
     </div>
