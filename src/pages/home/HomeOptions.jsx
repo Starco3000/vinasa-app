@@ -14,7 +14,7 @@ const HomeOptions = () => {
       <div className="flex flex-col items-center gap-2 lg:gap-6">
         <NavLink
           className="flex flex-col items-center justify-center bg-white w-[70px] h-[45px] lg:w-[210px] lg:h-[150px] shrink-0 border-4 border-mint rounded-10 lg:rounded-30 text-center lg:mt-[50px]"
-          to="/"
+          to="/hoatdong"
         >
           <FontAwesomeIcon
             icon={faListCheck}
