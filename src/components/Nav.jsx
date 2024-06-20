@@ -33,7 +33,7 @@ const Nav = () => {
           </NavLink>
           <NavLink
             className="font-open-sans font-medium text-[18px] hover:text-gold transition border-b-2 border-transparent hover:border-gold cursor-pointer duration-500 ease-in-out"
-            to=""
+            to="/news"
           >
             Tin tức
           </NavLink>

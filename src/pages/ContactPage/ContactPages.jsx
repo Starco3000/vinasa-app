@@ -1,9 +1,8 @@
-import React from 'react';
-
-import Contact from './Contact/Contact';
-import Address from './Address/Address';
-import Map from './Map/Map';
-import SubBanner from '../../components/SubBanner';
+import React from "react";
+import Contact from "./Contact/Contact";
+import Address from "./Address/Address";
+import Map from "./Map/Map";
+import SubBanner from "../../components/SubBanner";
 const ContactPages = () => {
   return (
     <div>

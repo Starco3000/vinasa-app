@@ -1,0 +1,21 @@
+.post-item{
+    /* width: calc(50% - 20px); */
+    width: 570px;
+    height: auto;
+}
+.post-img img{
+    width: 100%;
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 10px;
+}
+.post-content{
+    max-height: calc(6 * 1.2em); /* 4 lines multiplied by the line-height */
+    line-height: 1.2em; /* Adjust line height as needed */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6; /* Limit to 4 lines */
+    margin-top: 14px;
+}
