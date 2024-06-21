@@ -27,7 +27,11 @@ const Logo = () => {
   }, []);
   return (
     <NavLink to="/">
-      <img className="w-auto h-11" src={logoImage} alt="logo vietfuture" />
+      <img
+        className="w-auto h-11 md:h-16 "
+        src={logoImage}
+        alt="logo vietfuture"
+      />
     </NavLink>
   );
 };

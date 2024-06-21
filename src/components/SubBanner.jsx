@@ -5,7 +5,7 @@ const SubBanner = ({ title }) => {
   return (
     <div className="relative">
       <img
-        className="w-full h-40 md:h-[356px] mt-[-84px]"
+        className="w-full h-40 md:h-[356px] mt-[-84px] md:mt-[-103px]"
         src={Subbanner}
         alt="Sub banner"
       />

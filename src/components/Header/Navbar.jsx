@@ -15,7 +15,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="absolute top-0 right-0">
+    <div className="absolute top-0 right-0 md:my-3">
       <nav className="flex flex-col items-end md:relative top-full left-0 right-0 md:border-0 border-[#ccc]">
         <div className="md:hidden p-3 w-fit">
           <FontAwesomeIcon

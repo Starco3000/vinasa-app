@@ -36,7 +36,7 @@ const Header = () => {
         color: textColor,
       }}
     >
-      <div className="relative w-full">
+      <div className="relative w-full ">
         <Logo />
         <Navbar />
       </div>

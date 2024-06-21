@@ -1,4 +1,5 @@
 
+//Public layout nav items
 export const navItems = [
   {
     id: 1,
@@ -16,7 +17,7 @@ export const navItems = [
         path: './fieldofcompetition',
       },
       {
-        id: 3, 
+        id: 3,
         title: 'Tiêu chí đánh giá',
         path: './evaluationcriteria',
       },
@@ -83,3 +84,5 @@ export const navItems = [
     path: './contactus',
   },
 ];
+
+
